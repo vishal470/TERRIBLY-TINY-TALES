@@ -23,7 +23,7 @@ function Build() {
       </div>
 
       <div className="paragraph">
-        <p>Think about it - this cricket series was akin to therapy.</p>
+        <p>{build ? build.subheading : "Loading..."}</p>
       </div>
 
       <div className="paragraph">
