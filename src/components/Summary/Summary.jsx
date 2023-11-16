@@ -32,7 +32,7 @@ function Summary() {
             <hr style={{ height: "30px", marginLeft: "5px" }} />
           </div>
         </div>
-        <hr style={{ marginLeft: "86px" }} />
+        <hr style={{ marginLeft: "86px"}} />
       </div>
 
       {/* Summary */}
