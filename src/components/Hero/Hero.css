@@ -1,0 +1,15 @@
+.hero{
+    background: url("https://i0.wp.com/www.benday.com/wp-content/uploads/2015/03/paris-bridge-horizontal.jpg?w=1200&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+}
+
+.ceo{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    position: relative;
+    top: 170px;
+    left: 30px;
+}

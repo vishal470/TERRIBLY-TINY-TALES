@@ -1,0 +1,32 @@
+.ceoName{
+    margin-left: 160px;
+}
+
+.follow{
+    padding-top: 8px;
+    color: #9A9A9A;
+    font-weight: bold;
+    display: flex;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.bio{
+    padding: 30px;
+}
+
+
+.insta{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(80, 172, 208);
+}
+
+.icon{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
