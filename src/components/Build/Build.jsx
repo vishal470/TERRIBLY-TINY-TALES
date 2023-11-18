@@ -19,7 +19,16 @@ function Build() {
   return (
     <div>
       <div className="title">
-        <h3>{build ? build.heading : "Loading..."}</h3>
+        <div>
+          <h3>{build ? build.heading : "Loading..."}</h3>
+        </div>
+        <div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/8919/8919938.png"
+            alt=""
+            className="righticons"
+          />
+        </div>
       </div>
 
       <div className="paragraph">

@@ -1,5 +1,6 @@
 .ceoName{
     margin-left: 160px;
+    padding-top: 10px;
 }
 
 .follow{
@@ -25,8 +26,13 @@
 .icon{
     display: flex;
     /* justify-content: space-around; */
-    gap: 50px;
+    gap: 20px;
     font-size: 12px;
-    padding-left: 30px;
+    /* padding-left: 5px; */
     padding-top: 10px;
+}
+
+.ceoicons{
+    height: 14px;
+    width: 14px;
 }

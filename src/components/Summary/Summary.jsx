@@ -24,21 +24,28 @@ function Summary() {
         <hr style={{ width: "86px" }} />
         <div className="line">
           <div>
-            <h4 className="post">
-              {summary ? summary.post : "Loading..."}
-            </h4>
+            <h4 className="post">{summary ? summary.post : "Loading..."}</h4>
           </div>
           <div>
             <hr style={{ height: "30px", marginLeft: "5px" }} />
           </div>
         </div>
-        <hr style={{ marginLeft: "86px"}} />
+        <hr style={{ marginLeft: "86px" }} />
       </div>
 
       {/* Summary */}
       <div className="summary">
         <div className="title">
-          <h3>{summary ? summary.title : "Loading..."}</h3>
+          <div>
+            <h3>{summary ? summary.title : "Loading..."}</h3>
+          </div>
+          <div>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/8919/8919938.png"
+              alt=""
+              className="righticons"
+            />
+          </div>
         </div>
 
         <div className="paragraph">
@@ -59,7 +66,9 @@ function Summary() {
 
         {/* Views */}
         <div>
-          <p style={{ color: "#9A9A9A",paddingBottom:"35px" }}>August 2-2 mins Read - 102 Views</p>
+          <p style={{ color: "#9A9A9A", paddingBottom: "35px" }}>
+            August 2-2 mins Read - 102 Views
+          </p>
         </div>
       </div>
       <hr />

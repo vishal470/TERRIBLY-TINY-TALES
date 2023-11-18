@@ -22,7 +22,21 @@ function Bio() {
       {/* Name */}
       <div className="ceoName">
         <div>
-          <h3>{ceoData ? ceoData.name : "Loading..."}</h3>
+          <h3>
+            {ceoData ? ceoData.name : "Loading..."}
+            &nbsp;
+            <img
+                src="https://cdn-icons-png.flaticon.com/512/12274/12274673.png"
+                alt=""
+                className="ceoicons"
+              />
+              &nbsp;
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3572/3572055.png"
+                alt=""
+                className="ceoicons"
+              />
+          </h3>
         </div>
         <div className="follow">
           <div>
@@ -65,17 +79,57 @@ function Bio() {
 
         {/* Icon */}
 
-      <div className="icon">
-        <div>125</div>
-        <div>12</div>
-        <div>57</div>
-        <div>26.0k</div>
+        <div className="icon">
+          <div className="allicons">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3334/3334338.png"
+                alt=""
+                className="icons"
+              />
+            </div>
+            <div>125</div>
+          </div>
+
+
+          <div className="allicons">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/8919/8919938.png"
+                alt=""
+                className="icons"
+              />
+            </div>
+            <div>12</div>
+          </div>
+
+
+          <div className="allicons">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/12209/12209694.png"
+                alt=""
+                className="icons"
+              />
+            </div>
+            <div>57.8k</div>
+          </div>
+
+
+          <div className="allicons">
+            <div>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/10307/10307888.png"
+                alt=""
+                className="icons"
+              />
+            </div>
+            <div>26.0k</div>
+          </div>
+
+
+        </div>
       </div>
-      </div>
-
-
-
-      
     </div>
   );
 }
