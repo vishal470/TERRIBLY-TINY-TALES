@@ -45,11 +45,13 @@ function Bio() {
                 textAlign: "center",
                 border: "2px solid #9A9A9A",
                 borderRadius: "5px",
+                fontSize:"18px",
+                padding:"2px 5px 2px 5px"
               }}
             >
               {ceoData ? ceoData.followers : "Loading..."}
             </div>
-            <div>Followers</div>
+            <div style={{fontSize:"10px",textAlign:"center"}}>Followers</div>
           </div>
           <div>
             <div
@@ -57,11 +59,13 @@ function Bio() {
                 textAlign: "center",
                 border: "2px solid #9A9A9A",
                 borderRadius: "5px",
+                fontSize:"18px",
+                padding:"2px 12px 2px 12px"
               }}
             >
               {ceoData ? ceoData.following : "Loading..."}
             </div>
-            <div>Following</div>
+            <div style={{fontSize:"10px",textAlign:"center"}}>Following</div>
           </div>
         </div>
       </div>

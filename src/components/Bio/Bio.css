@@ -9,7 +9,6 @@
     font-weight: bold;
     display: flex;
     gap: 12px;
-    font-size: 13px;
 }
 
 .bio{
@@ -36,3 +35,4 @@
     height: 14px;
     width: 14px;
 }
+
