@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# TERRIBLY TINY TALES Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Hello Sir,
 
-In the project directory, you can run:
+I am Vishal Sharma, the developer of this assignment using React Js. The project utilizes several libraries and plugins to enhance functionality, including Axios, Concurrently, and Json Server.
 
-### `npm start`
+## Project Explanation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Src Folder Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The `Src` folder is organized with a `Component` folder, containing various sub-folders. Additionally, a `db.json` file is located in the `Src` folder, where all the data displayed on the page is stored. Axios is used for fetching this data.
 
-### `npm test`
+### Component's Files Explanation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Navbar:**
+   - Displays the navigation bar.
 
-### `npm run build`
+2. **Hero:**
+   - Presents the background image and CEO image.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Bio:**
+   - Showcases CEO details such as name, followers, and other relevant information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Summary:**
+   - Displays posts and other related details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. **Match:**
+   - Description of the Match component
 
-### `npm run eject`
+6. **Build:**
+   - Description of the Build component
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Run
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the project, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Open the terminal.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Run the command:
 
-## Learn More
+    ```bash
+    npm run dev
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    This command starts both the `db.json` server and the React App on different ports.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Alternatively, you can start only the React App with:
 
-### Code Splitting
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Note: If the `db.json` server is not running on a different port, the app will display 'Loading...'.
 
-### Analyzing the Bundle Size
+**Hosting Information:**
+I have hosted this project on Vercel. You can access the deployed version by [clicking here](https://terribly-tiny-tales-2dkj.vercel.app/). Please note that you need to run the `db.json` file on a server using the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+json-server --watch db.json --port 3001
+```
 
-### Making a Progressive Web App
+I am in the process of learning how to host the db.json file separately and plan to improve my skills in this area.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Lastly, I want to express my joy in completing this project. It has been a valuable learning experience, and I have gained a lot from it.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Best regards,
+Vishal Sharma
+12011639 (LPU Registeration Number)
